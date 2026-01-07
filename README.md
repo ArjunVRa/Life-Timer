@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/logo.png" alt="Life Timer Logo" width="120">
+  <img src="logo.png" alt="Life Timer Logo" width="120">
   <h1>Life Timer</h1>
 </div>
 # React + Vite
