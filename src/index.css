@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap'); /* Digital */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap'); /* Nixie */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-900 dark:bg-zinc-950 dark:text-zinc-100 transition-colors duration-500 ease-in-out;
+}
+
+/* Nixie Tube Glow Effect */
+.nixie-glow {
+  text-shadow: 0 0 10px rgba(255, 100, 0, 0.8), 
+               0 0 20px rgba(255, 100, 0, 0.5), 
+               0 0 30px rgba(255, 50, 0, 0.3);
+}
+
+/* Casio LCD Shadow */
+.lcd-shadow {
+  box-shadow: inset 2px 2px 5px rgba(0,0,0,0.1);
+}
