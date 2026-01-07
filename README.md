@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="public/logo.png" alt="Life Timer Logo" width="120">
+  <h1>Life Timer</h1>
+</div>
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
