@@ -1,0 +1,8 @@
+services:
+  life-timer:
+    container_name: life-timer
+    build: .
+    image: life-timer:latest
+    restart: always
+    ports:
+      - "3000:80"
